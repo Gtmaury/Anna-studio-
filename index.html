@@ -79,11 +79,13 @@
     <section id="about" class="container mx-auto px-6 py-20">
       <div class="flex flex-col md:flex-row items-center gap-12">
         <div class="md:w-1/2">
-          <img
-            src="https://placehold.co/600x700/F4E9E1/5C4B42?text=Serena+Studio"
-            alt="Interior of Serena Studio"
-            class="rounded-lg shadow-xl w-full"
-          />
+          <div class="overflow-hidden rounded-lg shadow-xl aspect-[4/5]">
+            <img
+              src="images/main.jpeg"
+              alt="Serena Studio"
+              class="w-full h-full object-cover object-top"
+            />
+          </div>
         </div>
         <div class="md:w-1/2 text-center md:text-left">
           <h2 class="text-4xl font-serif text-dark mb-6">
@@ -199,32 +201,39 @@
       <h2 class="text-4xl font-serif text-dark text-center mb-12">
         Nuestras Creaciones
       </h2>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="overflow-hidden rounded-lg shadow-lg">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        <div class="overflow-hidden rounded-lg shadow-lg aspect-[4/5]">
           <img
-            src="https://placehold.co/400x500/EAE0D9/5C4B42?text=Estilo+1"
-            alt="Beauty work 1"
+            src="images/estilo1.jpeg"
+            alt="Trabajo de belleza 1"
             class="w-full h-full object-cover gallery-img"
           />
         </div>
-        <div class="overflow-hidden rounded-lg shadow-lg">
+        <div class="overflow-hidden rounded-lg shadow-lg aspect-[4/5]">
           <img
-            src="https://placehold.co/400x500/D4BBAA/FFFFFF?text=Estilo+2"
-            alt="Beauty work 2"
+            src="images/estilo2.jpeg"
+            alt="Trabajo de belleza 2"
             class="w-full h-full object-cover gallery-img"
           />
         </div>
-        <div class="overflow-hidden rounded-lg shadow-lg">
+        <div class="overflow-hidden rounded-lg shadow-lg aspect-[4/5]">
           <img
-            src="https://placehold.co/400x500/F4E9E1/5C4B42?text=Estilo+3"
-            alt="Beauty work 3"
+            src="images/estilo3.jpeg"
+            alt="Trabajo de belleza 3"
             class="w-full h-full object-cover gallery-img"
           />
         </div>
-        <div class="overflow-hidden rounded-lg shadow-lg">
+        <div class="overflow-hidden rounded-lg shadow-lg aspect-[4/5]">
           <img
-            src="https://placehold.co/400x500/5C4B42/FFFFFF?text=Estilo+4"
-            alt="Beauty work 4"
+            src="images/estilo4.jpeg"
+            alt="Trabajo de belleza 4"
+            class="w-full h-full object-cover gallery-img"
+          />
+        </div>
+        <div class="overflow-hidden rounded-lg shadow-lg aspect-[4/5]">
+          <img
+            src="images/estilo5.jpeg"
+            alt="Trabajo de belleza 5"
             class="w-full h-full object-cover gallery-img"
           />
         </div>
@@ -237,17 +246,19 @@
         <p class="text-2xl font-serif mb-4">Serena Studio</p>
         <p class="mb-4">144, San Diego 2006, Carabobo, Venezuela</p>
         <p class="mb-6">annafrancyg@gmail.com| +58 414-0342245</p>
-        <div class="flex justify-center space-x-6 mb-8">
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
           <a
             href="https://www.instagram.com/serenahestudio/"
-            class="text-dark hover:text-accent transition duration-300"
-            >Instagram</a
+            class="btn-social btn-instagram"
           >
+            Instagram
+          </a>
           <a
             href="https://wa.me/584140342245"
-            class="text-dark hover:text-accent transition duration-300"
-            >Whatsapp</a
+            class="btn-social btn-whatsapp"
           >
+            WhatsApp
+          </a>
         </div>
         <p class="text-sm">
           &copy; 2024 Serena Studio. Todos los Derechos Reservados. Diseñado con
